@@ -87,7 +87,7 @@ body.light-hero .mob-tog span{background:var(--g700)}
 .mdrawer-list .mdd-sub li a.dd-feat-mob{color:#fff;font-weight:700}
 .mdrawer-cta{display:flex;flex-direction:column;gap:10px;margin-top:auto}
 .mc-call{padding:14px;text-align:center;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:#fff;border-radius:50px;font-weight:700}
-.mc-quote{padding:14px;text-align:center;background:var(--white);color:var(--primary);border-radius:50px;font-weight:700;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+.mc-quote{padding:14px;text-align:center;background:var(--green);color:#fff;border-radius:50px;font-weight:700;box-shadow:0 4px 14px rgba(0,0,0,.2)}
 
 /* HERO */
 .hero{padding:0;position:relative;overflow:hidden;display:flex;align-items:center}
@@ -103,8 +103,8 @@ body.light-hero .mob-tog span{background:var(--g700)}
 .hero h1 .em{color:var(--g300)}
 .hero-sub{font-size:1.05rem;color:rgba(255,255,255,.78);line-height:1.7;margin-bottom:32px;max-width:540px}
 .hero-btns{display:flex;gap:10px;flex-wrap:nowrap;margin-bottom:28px}
-.btn-p{display:inline-flex;align-items:center;gap:6px;background:var(--white);color:var(--primary);padding:15px 30px;border-radius:50px;font-weight:700;font-size:.95rem;border:none;cursor:pointer;font-family:inherit;transition:all .25s;white-space:nowrap}
-.btn-p:hover{background:var(--g100);transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.15)}
+.btn-p{display:inline-flex;align-items:center;gap:6px;background:var(--green);color:#fff;padding:15px 30px;border-radius:50px;font-weight:700;font-size:.95rem;border:none;cursor:pointer;font-family:inherit;transition:all .25s;white-space:nowrap}
+.btn-p:hover{background:#166534;transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.15)}
 .btn-glass{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.2);color:#fff;padding:15px 30px;border-radius:50px;font-weight:600;font-size:.95rem;cursor:pointer;font-family:inherit;transition:all .25s;white-space:nowrap}
 .btn-glass:hover{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.3);transform:translateY(-1px)}
 .btn-dark{display:inline-flex;align-items:center;gap:6px;background:var(--g900);color:#fff;padding:15px 30px;border-radius:50px;font-weight:700;font-size:.95rem;cursor:pointer;font-family:inherit;transition:all .25s}
