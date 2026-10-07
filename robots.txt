@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+# A copy of a client site, kept for testing the RANKIFY editor.
+# Never to be indexed: the original is a real business and this must not
+# compete with it in search results.
