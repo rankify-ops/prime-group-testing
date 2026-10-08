@@ -102,6 +102,7 @@ body.light-hero .mob-tog span{background:var(--g700)}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 .hero h1{font-size:clamp(2.6rem,5vw,3.6rem);line-height:1.06;margin-bottom:18px;font-weight:800;color:#fff}
 .hero h1 .em{color:var(--g300)}
+.hero-note{font-size:1rem;color:var(--g300);font-weight:600;margin-bottom:14px}
 .hero-sub{font-size:1.05rem;color:rgba(255,255,255,.78);line-height:1.7;margin-bottom:32px;max-width:540px}
 .hero-btns{display:flex;gap:10px;flex-wrap:nowrap;margin-bottom:28px}
 .btn-p{display:inline-flex;align-items:center;gap:6px;background:var(--orange);color:#fff;padding:15px 30px;border-radius:50px;font-weight:700;font-size:.95rem;border:none;cursor:pointer;font-family:inherit;transition:all .25s;white-space:nowrap}
