@@ -154,10 +154,10 @@
       var autoResponse =
         'Hi ' + firstName + ',\n\n' +
         'Thanks for your enquiry about ' + ctx + ' — we\'ve received it and will be in touch shortly.\n\n' +
-        'Need urgent help? Call us on 03 9555 0123.\n\n' +
+        'Need urgent help? Call us on 03 9555 7788.\n\n' +
         'Cheers,\n' +
         'The Northside Building Co Team\n' +
-        '03 9555 0123 | office@primegroupbuild.com.au';
+        '03 9555 7788 | office@primegroupbuild.com.au';
 
       var payload = {
         access_key: '4be6acce-6bd3-4ce0-837d-6cfd4708276e',
@@ -185,13 +185,13 @@
         if(res.ok && res.j && res.j.success){
           cb(true);
         } else {
-          showError('Sorry, we couldn\'t send that automatically. Please call <a href="tel:0395550123" style="color:#dc2626;font-weight:700">03 9555 0123</a> or email <a href="mailto:office@primegroupbuild.com.au" style="color:#dc2626;font-weight:700">office@primegroupbuild.com.au</a>.');
+          showError('Sorry, we couldn\'t send that automatically. Please call <a href="tel:0395557788" style="color:#dc2626;font-weight:700">03 9555 7788</a> or email <a href="mailto:office@primegroupbuild.com.au" style="color:#dc2626;font-weight:700">office@primegroupbuild.com.au</a>.');
           cb(false);
         }
       })
       .catch(function(){
         if(btn){ btn.disabled = false; btn.textContent = origText; btn.style.opacity = ''; }
-        showError('Network issue. Please call <a href="tel:0395550123" style="color:#dc2626;font-weight:700">03 9555 0123</a> or email <a href="mailto:office@primegroupbuild.com.au" style="color:#dc2626;font-weight:700">office@primegroupbuild.com.au</a>.');
+        showError('Network issue. Please call <a href="tel:0395557788" style="color:#dc2626;font-weight:700">03 9555 7788</a> or email <a href="mailto:office@primegroupbuild.com.au" style="color:#dc2626;font-weight:700">office@primegroupbuild.com.au</a>.');
         cb(false);
       });
     };
